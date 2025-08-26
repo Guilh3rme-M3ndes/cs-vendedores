@@ -13,11 +13,12 @@ OPÇÕES:
 2. Consultar vendedor (**)
 3. Excluir vendedor   (***)
 4. Registrar venda
-5. Listar vendedores  (****)
-(*)    - Limitar o quantitativo de vendedores cadastrados (máximo 10).
+5. Listar vendedores (****)
+   
+- (*)    - Limitar o quantitativo de vendedores cadastrados (máximo 10).
 
-(**)   - Quando encontrado, deverá ser informado o id, nome, o valor total das vendas, o valor da comissão devida e  o valor médio das vendas diárias (de cada dia que houve registro de venda).
+- (**)   - Quando encontrado, deverá ser informado o id, nome, o valor total das vendas, o valor da comissão devida e  o valor médio das vendas diárias (de cada dia que houve registro de venda).
 
-(***)  - O vendedor só poderá ser excluído enquanto não houver nenhuma venda associada a ele.
+- (***)  - O vendedor só poderá ser excluído enquanto não houver nenhuma venda associada a ele.
 
-(****) - Deverá ser informado, para cada vendedor, o id, nome, valor total das vendas e o valor da comissão devida. Ao final da listagem, esses valores deverão ser totalizados.
+- (****) - Deverá ser informado, para cada vendedor, o id, nome, valor total das vendas e o valor da comissão devida. Ao final da listagem, esses valores deverão ser totalizados.
