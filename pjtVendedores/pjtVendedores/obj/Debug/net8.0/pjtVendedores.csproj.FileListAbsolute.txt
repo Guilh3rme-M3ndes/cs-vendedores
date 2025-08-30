@@ -1,0 +1,15 @@
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\bin\Debug\net8.0\pjtVendedores.exe
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\bin\Debug\net8.0\pjtVendedores.deps.json
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\bin\Debug\net8.0\pjtVendedores.runtimeconfig.json
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\bin\Debug\net8.0\pjtVendedores.dll
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\bin\Debug\net8.0\pjtVendedores.pdb
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\pjtVendedores.GeneratedMSBuildEditorConfig.editorconfig
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\pjtVendedores.AssemblyInfoInputs.cache
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\pjtVendedores.AssemblyInfo.cs
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\pjtVendedores.csproj.CoreCompileInputs.cache
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\pjtVendedores.sourcelink.json
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\pjtVendedores.dll
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\refint\pjtVendedores.dll
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\pjtVendedores.pdb
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\pjtVendedores.genruntimeconfig.cache
+C:\ifsp\estrutura de dados\edd2\vendedores-cs\cs-vendedores\pjtVendedores\pjtVendedores\obj\Debug\net8.0\ref\pjtVendedores.dll
