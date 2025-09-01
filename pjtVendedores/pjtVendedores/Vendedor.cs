@@ -13,7 +13,7 @@ namespace pjtVendedores
         private double percComissao;
         private Venda[] vendas = new Venda[31];
 
-        public int Id { get => this.id; }
+        public int Id { get => this.id; set => this.id = value; }
         public string Nome { get => this.nome; set => this.nome = value; }
         public double PercComissao { get => this.percComissao; }
 
@@ -52,9 +52,8 @@ namespace pjtVendedores
         }
         public void RegistrarVenda(int dia, Venda venda)
         {
-
-            this.vendas[dia - 1] = venda;
-
+                this.vendas[dia - 1] = venda;
+            
         }
 
         public double ValorVendas()

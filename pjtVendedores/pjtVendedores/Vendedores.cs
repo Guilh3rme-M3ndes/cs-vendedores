@@ -60,10 +60,10 @@ namespace pjtVendedores
                         for (int jj = ii; jj < this.qtde - 1; jj++)
                         {
                             this.vendedores[jj] = this.vendedores[jj + 1];
+                            this.vendedores[jj].Id--;
                         }
                         this.vendedores[this.qtde - 1] = new Vendedor();
                         this.qtde--;
-                        Console.WriteLine($"Vendedor id {vendedor.Id} removido.");
                         break;
                     }
                 }

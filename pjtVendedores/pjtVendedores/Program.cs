@@ -13,7 +13,7 @@
                 "4 - Registrar Venda\n" +
                 "5 - Listar Vendedores";
             int seletor = -1;
-            int id = 0;
+            int id;
 
             Console.WriteLine(new string('-',10) + "Gerenciamento de vendas" + new string('-', 10));
 
@@ -23,14 +23,7 @@
                 Console.WriteLine(opcoes);
                 Console.WriteLine(new string('-', 43));
                 Console.WriteLine("Informe a opção desejada: ");
-                string slt = Console.ReadLine();
-                bool ehValido = int.TryParse(slt, out seletor);
-                while (!ehValido)
-                {
-                    Console.WriteLine("Informe um número inteiro válido!");
-                    slt = Console.ReadLine();
-                    ehValido = int.TryParse(slt, out seletor);
-                }
+                seletor = Utils.lerInt(Console.ReadLine(), 0, "Precisa ser um inteiro!");
                 switch(seletor)
                 {
                     case 0:
@@ -40,15 +33,7 @@
                         Console.WriteLine("Informe o nome do vendedor:");
                         string nome = Console.ReadLine();
                         Console.WriteLine("Informe o percentual de comissão: ");
-                        string cms = Console.ReadLine();
-                        double comissao;
-                        bool doubleValido = double.TryParse(cms, out comissao);
-                        while (!doubleValido || comissao < 0)
-                        {
-                            Console.WriteLine("Precisa ser um numero positivo");
-                            cms = Console.ReadLine();
-                            doubleValido = double.TryParse(cms, out comissao);
-                        }
+                        double comissao = Utils.lerDouble(Console.ReadLine(), 0, "Precisa ser um numero positivo");
                         Vendedor vendedor = new Vendedor(id, nome, comissao);
                         if(vendedores.addVendedor(vendedor)) 
                         {
@@ -61,15 +46,7 @@
                     case 2:
                         {
                             Console.WriteLine("Informe o ID do vendedor: ");
-                            string tempId = Console.ReadLine();
-                            int searchId = -1;
-                            bool idValido = int.TryParse(tempId, out searchId);
-                            while (!idValido || searchId < 0)
-                            {
-                                Console.WriteLine("Informe um Id valido!");
-                                tempId = Console.ReadLine();
-                                idValido = int.TryParse(tempId, out searchId);
-                            }
+                            int searchId = Utils.lerInt(Console.ReadLine(), 0, "Precisa ser um inteiro");
                             Vendedor v = new Vendedor(searchId);
                             Vendedor vendedorPesquisado = vendedores.searchVendedor(v);
                             if (vendedorPesquisado.Id == -1)
@@ -100,15 +77,7 @@
                     case 3:
                         {
                             Console.WriteLine("Informe o ID do vendedor: ");
-                            string tempId = Console.ReadLine();
-                            int deleteId = -1;
-                            bool idValido = int.TryParse(tempId, out deleteId);
-                            while (!idValido || deleteId < 0)
-                            {
-                                Console.WriteLine("Informe um Id valido!");
-                                tempId = Console.ReadLine();
-                                idValido = int.TryParse(tempId, out deleteId);
-                            }
+                            int deleteId = Utils.lerInt(Console.ReadLine(), 0, "Precisa ser um inteiro positivo");
                             Vendedor vdelete = new Vendedor(deleteId);
                             Console.WriteLine(vendedores.delVendedor(vdelete) ? 
                                 $"Vendedor deletado id {vdelete.Id}!" : "Não foi possível deletar o usuario");
@@ -116,13 +85,19 @@
                         }
                     case 4:
                         Console.WriteLine("Informe o n de vendas: ");
-                        int qnt = int.Parse(Console.ReadLine());
+                        int qnt = Utils.lerInt(Console.ReadLine(), 1, "Precisa ser um inteiro positivo");
                         Console.WriteLine("Informe o valor vendido");
-                        double valor = double.Parse(Console.ReadLine());
+                        double valor = Utils.lerDouble(Console.ReadLine(), 0, "Precisa ser um número positivo");
                         Console.WriteLine("Informe o vendedor");
-                        int vendId = int.Parse(Console.ReadLine());
+                        int vendId = Utils.lerInt(Console.ReadLine(), 0, "Precisa ser um inteiro positivo");
                         Console.WriteLine("Informe o dia da venda");
-                        int dia = int.Parse(Console.ReadLine());
+                        int dia = Utils.lerInt(Console.ReadLine(), 0, "Precisa ser um inteiro positivo");
+                        while(dia < 1 || dia > 31)
+                        {
+                            Console.WriteLine("O dia deve estar entre 1 e 31");
+                            dia = Utils.lerInt(Console.ReadLine(), 0, "Precisa ser um inteiro positivo");
+
+                        }
                         Vendedor pesquisa = vendedores.searchVendedor(new Vendedor(vendId));
                         if (pesquisa.Id == -1 || pesquisa.Vendas[dia].Qtde > 0)
                         {
@@ -153,9 +128,9 @@
                         ;
                         break;
                 }
-
-
-
+                Console.WriteLine("Pressione qualquer tecla para continuar...");
+                Console.ReadKey();
+                Console.Clear();
             }
         }
     }

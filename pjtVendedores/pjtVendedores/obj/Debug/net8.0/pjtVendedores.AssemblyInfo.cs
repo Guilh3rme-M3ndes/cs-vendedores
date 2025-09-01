@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pjtVendedores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ec6d53321f5da0c246c785b4a41268111ba55f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a21c8ce3276d1819a508b0cd797f1a24145d09c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("pjtVendedores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pjtVendedores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

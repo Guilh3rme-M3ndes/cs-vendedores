@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|solutionrelative:pjtvendedores\\vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|c:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtvendedores\\pjtvendedores\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|solutionrelative:pjtvendedores\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|c:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtvendedores\\pjtvendedores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|solutionrelative:pjtvendedores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|c:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtvendedores\\pjtvendedores\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|solutionrelative:pjtvendedores\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|c:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtvendedores\\pjtvendedores\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|solutionrelative:pjtvendedores\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|c:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtvendedores\\pjtvendedores\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|solutionrelative:pjtvendedores\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|c:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtvendedores\\pjtvendedores\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE79EF8-A021-4764-A6D0-FFF3FC7D36E5}|pjtVendedores\\pjtVendedores.csproj|solutionrelative:pjtvendedores\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtVendedores\\pjtVendedores\\Utils.cs",
+              "RelativeDocumentMoniker": "pjtVendedores\\Utils.cs",
+              "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtVendedores\\pjtVendedores\\Utils.cs",
+              "RelativeToolTip": "pjtVendedores\\Utils.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T00:31:04.496Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,46 +53,45 @@
               "RelativeDocumentMoniker": "pjtVendedores\\Vendedores.cs",
               "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtVendedores\\pjtVendedores\\Vendedores.cs",
               "RelativeToolTip": "pjtVendedores\\Vendedores.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAcwDUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwDoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T17:11:26.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Vendedor.cs",
               "DocumentMoniker": "C:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtVendedores\\pjtVendedores\\Vendedor.cs",
               "RelativeDocumentMoniker": "pjtVendedores\\Vendedor.cs",
               "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtVendedores\\pjtVendedores\\Vendedor.cs",
               "RelativeToolTip": "pjtVendedores\\Vendedor.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowA8AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T17:11:03.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Venda.cs",
               "DocumentMoniker": "C:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtVendedores\\pjtVendedores\\Venda.cs",
               "RelativeDocumentMoniker": "pjtVendedores\\Venda.cs",
               "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtVendedores\\pjtVendedores\\Venda.cs",
               "RelativeToolTip": "pjtVendedores\\Venda.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:10:26.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T17:10:26.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtVendedores\\pjtVendedores\\Program.cs",
               "RelativeDocumentMoniker": "pjtVendedores\\Program.cs",
               "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\vendedores-cs\\cs-vendedores\\pjtVendedores\\pjtVendedores\\Program.cs",
               "RelativeToolTip": "pjtVendedores\\Program.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAQwHEAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T17:09:22.745Z",
               "EditorCaption": ""
